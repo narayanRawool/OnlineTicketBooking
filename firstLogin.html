@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/websiteLogoinWhite.svg" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/websiteLogoinWhite.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-    <div class="main"> <img src="images/websiteLogoinWhite.svg" alt="CineQuest Logo">
-        <div class="signPage">
-            <div class="left">
-                <div class="content">
-                    <h2>Sign in</h2>
-                    <img src="images/google-plus-svgrepo-com.svg" alt="google">
-                    <img src="images/apple-173-svgrepo-com.svg" alt="apple">
-                    <img src="images/facebook-boxed-svgrepo-com.svg" alt="facebook">
-                    <p>or use your account</p>
-                </div>
-                <div class="login">
-                    <input type="email" placeholder="Enter your Email here" required>
-                    <input type="password"placeholder="Enter your Password here" required>
-                    <button>Sign in</button>
-                </div>
+  </head>
+  <body>
+    <div class="main">
+      <img src="images/websiteLogoinWhite.svg" alt="CineQuest Logo" class="logo"/>
+      <div class="signPage">
+        <!--Left Side of signIn page-->
+        <div class="left">
+          <div class="content">
+            <h2>Sign in</h2>
+         </div>
+            <div class="imgs">
+                <img src="images/google-plus-svgrepo-com.svg" alt="google" class="google"/>
+                <img src="images/apple-173-svgrepo-com.svg" alt="apple" class="apple" />
+                <img src="images/facebook-boxed-svgrepo-com.svg" alt="facebook" class="facebook" />
             </div>
-            <div class="right"></div>
+        <div class="accountPara">
+            <p>or use your account</p>
         </div>
+        <div class="login">
+          <input type="email" id="email" placeholder="Enter Your Email Here... " required>
+          <input type="password" id="password" placeholder="Enter your Password Here..." required>
+          <fieldset>
+            <input type="checkbox" name="admin" id="admin" value="Pick if you are admin">
+          <label for="admin">Pick if you are admin</label>
+          </fieldset>
+          
+          <input type="button" value="Sign in" class="btn-signIN">
+        </div>
+        </div>
+        <!--Right Side of Sign in Page-->
+        <div class="right"></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

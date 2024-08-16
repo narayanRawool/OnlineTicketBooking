@@ -4,9 +4,19 @@
     padding: 0;
 }
 
-.main img{
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.logo{
     height: 100px;
     padding: 20px;
+    background-color: #2a3a42;
+    margin-left: 11px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .signPage {
@@ -19,16 +29,123 @@
 .left {
     height: 100%;
     width: 100%;
-    background-color: antiquewhite;
     border-radius: 40px 0px 0px 40px;
 }
 .right {
     height: 100%;
     width: 100%;
     background-color: #f94365;
-    border-radius: 0px 40px 40px 0px;
+    border-radius: 171px 40px 40px 171px;
 }
 
-.content p{
-    color: white;
+.content h2{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin: 2px 11px 0px 11px;
+    background-color: antiquewhite;
+    border-radius: 7px 0px 0px 0px;
+    padding-top: 14px;
+    padding-bottom: 37px;
+    padding-right: 136px;
+}
+
+.imgs{
+    margin-left: 11px;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    margin-right: -16px;
+    margin-top: -1px;
+}
+
+
+.google {
+    width: 50px;
+    height: 50px;
+    background-color: #faebd7;
+    border: 1px solid black;
+    border-radius: 28px;
+    cursor:pointer;
+}
+
+.apple {
+    width: 31px;
+    height: 30px;
+    background-color: #faebd7;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.facebook {
+    width: 32px;
+    height: 38px;
+    background-color: #faebd7;
+    border: 1px solid black;
+    border-radius: 27px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.accountPara p{
+    text-align: center;
+    background-color: #faebd7;
+    color: grey;
+    margin-left: 11px;
+    padding: 25px;
+}
+
+.login {
+    display: grid;
+    justify-content: center;
+    background-color: #faebd7;
+    margin-left: 11px;
+    margin-right: -152px;
+    padding-bottom: 141px;
+}
+
+#email {
+    width: 40vh;
+    height: 5vh;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 0px 8px 4px 18px;
+    margin: 10px;
+    margin-left: -120px;
+}
+
+#password {
+    width: 40vh;
+    height: 5vh;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 0px 8px 4px 18px;
+    margin: 9px;
+    margin-left: -120px;
+}
+
+.btn-signIN {
+    width: 13vh;
+    font-weight: bolder;
+    height: 4vh;
+    border: none;
+    border-radius: 1vh;
+    text-align: center;
+    margin: 42px 0px -43px 13px;
+    background-color: #f94365;
+}
+
+fieldset {
+    background-color: antiquewhite;
+    border: none;
+    margin-left: 0px;
+    padding: 12px;
+    margin-left: -122px;
+}
+
+label {
+    background-color: #faebd7;
 }
